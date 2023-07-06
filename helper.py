@@ -52,4 +52,3 @@ class CustomSession(Session):
 
 
 reqres_session = CustomSession("https://reqres.in")
-resources_session = CustomSession("https://reqres.in/api/unknown/")

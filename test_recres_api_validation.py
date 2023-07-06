@@ -1,5 +1,5 @@
 from jsonschema.validators import validate
-from helper import load_json_schema, reqres_session, resources_session
+from helper import load_json_schema, reqres_session
 
 
 def test_create_user_post_validation():
